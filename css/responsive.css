@@ -1,0 +1,25 @@
+/* ==========================================================
+   responsive.css — móvil, tablet y accesibilidad de movimiento
+   ========================================================== */
+@media (max-width: 860px) {
+  .bento { grid-template-columns: repeat(2, 1fr); grid-auto-rows: calc((100cqw - var(--gap)) / 2); }
+  .bento .tile:nth-child(1) { grid-column: 1 / 3; grid-row: auto; }
+  .bento .tile:nth-child(2) { grid-column: 1 / 3; grid-row: auto; }
+  .bento .tile:nth-child(1), .bento .tile:nth-child(2) { grid-row: span 1; }
+  .bento .tile:nth-child(1), .bento .tile:nth-child(2) { aspect-ratio: auto; }
+  .work, .profile, .d-body { grid-template-columns: 1fr; }
+  .photo { max-width: 320px; }
+  .facts div { grid-template-columns: 1fr; gap: 4px; }
+  .step-imgs.cols-2 { grid-template-columns: 1fr; }
+}
+@media (max-width: 560px) {
+  .intro-hint { display: none; }
+  .site-header .wrap { height: auto; padding-top: 12px; padding-bottom: 12px; flex-wrap: wrap; }
+  .nav { gap: 12px; flex-wrap: wrap; }
+  .nav a { font-size: 14px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after { animation: none !important; transition: none !important; }
+  h1 span { opacity: 1; transform: none; }
+  html { scroll-behavior: auto; }
+}

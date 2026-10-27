@@ -1,0 +1,37 @@
+/* ==========================================================
+   base.css — reset, tipografía, cabecera, navegación y pie
+   ========================================================== */
+*, *::before, *::after { box-sizing: border-box; margin: 0; }
+
+html { scroll-behavior: smooth; scroll-padding-top: 80px; }
+body { overflow-x: clip; background: var(--bg); color: var(--ink); font: 400 17px/1.6 var(--sans); transition: background .3s, color .3s; -webkit-font-smoothing: antialiased; }
+a { color: inherit; }
+ul { list-style: none; padding: 0; }
+img, video { max-width: 100%; display: block; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+
+.wrap { max-width: var(--max); margin: 0 auto; padding: 0 var(--pad); }
+.label { font-size: 13px; font-weight: 600; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); }
+
+/* ---------- Cabecera ---------- */
+.site-header { position: sticky; top: 0; z-index: 10; background: color-mix(in srgb, var(--bg) 90%, transparent); backdrop-filter: blur(10px); }
+.site-header .wrap { display: flex; align-items: center; justify-content: space-between; height: 72px; gap: 16px; }
+.logo { text-decoration: none; line-height: 1.15; }
+.logo b { display: block; font-weight: 600; font-size: 17px; letter-spacing: -.01em; }
+.logo span { font-size: 13px; color: var(--muted); }
+
+.nav { display: flex; align-items: center; gap: clamp(14px, 2.6vw, 30px); }
+.nav a { text-decoration: none; font-size: 15px; position: relative; padding: 4px 0; }
+.nav a::after { content: ""; position: absolute; left: 0; right: 0; bottom: 0; height: 1px; background: currentColor; transform: scaleX(0); transform-origin: left; transition: transform .25s; }
+.nav a:hover::after, .nav a.on::after { transform: scaleX(1); }
+
+.lang { display: flex; gap: 2px; border: 1px solid var(--line); border-radius: 99px; padding: 2px; }
+.lang button { font: 600 12px var(--sans); border: 0; background: none; color: var(--muted); padding: 5px 8px; border-radius: 99px; cursor: pointer; }
+.lang button[aria-pressed="true"] { background: var(--ink); color: var(--bg); }
+
+.theme-btn { background: none; border: 1px solid var(--line); color: var(--ink); width: 34px; height: 34px; border-radius: 50%; cursor: pointer; font-size: 15px; }
+.theme-btn:hover { border-color: var(--ink); }
+
+/* ---------- Pie ---------- */
+.site-footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 14px; }
+.site-footer .wrap { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; }

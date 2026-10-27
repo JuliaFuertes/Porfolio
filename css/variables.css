@@ -1,0 +1,29 @@
+/* ==========================================================
+   variables.css — colores, tipografía y espaciados
+   Para cambiar la paleta de toda la web, edita solo este archivo.
+   ========================================================== */
+:root {
+  --bg: #f7f7f4;
+  --ink: #101312;
+  --muted: #6a6f6b;
+  --line: #dcdcd5;
+  --soft: #ecece6;
+  --accent: #244535;
+  --on-accent: #f7f7f4;
+
+  --sans: "Figtree", system-ui, -apple-system, sans-serif;
+  --max: 1280px;
+  --pad: clamp(20px, 4.5vw, 56px);
+  --ease: cubic-bezier(.2, .7, .2, 1);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0f1412; --ink: #eef0ea; --muted: #9aa59e; --line: #26302c;
+    --soft: #1a221f; --accent: #8fc4a6; --on-accent: #0f1412;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0f1412; --ink: #eef0ea; --muted: #9aa59e; --line: #26302c;
+  --soft: #1a221f; --accent: #8fc4a6; --on-accent: #0f1412;
+}

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Júlia Fuertes · Product Designer</title>
+  <meta name="description" content="Júlia Fuertes, product designer in Barcelona. UX/UI, front-end and AI projects.">
+
+  <link rel="icon" type="image/png" href="assets/images/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Estilos (el orden importa) -->
+  <link rel="stylesheet" href="css/variables.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/components.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- ENTRADA: logo interactivo (flor hecha de puntitos, js/flower.js) -->
+  <section class="intro" id="intro">
+    <canvas id="flower" role="img"></canvas>
+    <div class="intro-ui">
+      <p class="intro-name"><b>Júlia Fuertes</b><span data-i="sub"></span></p>
+      <p class="intro-hint" data-i="intro_hint"></p>
+      <a class="intro-scroll" href="#top" data-i="intro_scroll"></a>
+    </div>
+  </section>
+
+  <header class="site-header">
+    <div class="wrap">
+      <a class="logo" href="#top"><b>Júlia Fuertes</b><span data-i="sub"></span></a>
+      <nav class="nav" aria-label="Main">
+        <a href="#work" data-i="nav_work"></a>
+        <a href="#experience" data-i="nav_exp"></a>
+        <a href="#profile" data-i="nav_profile"></a>
+        <a href="#contact" data-i="nav_contact"></a>
+        <div class="lang" role="group">
+          <button data-l="en">EN</button><button data-l="ca">CA</button><button data-l="es">ES</button>
+        </div>
+        <button id="theme" class="theme-btn">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top" class="wrap">
+
+    <section class="hero">
+      <h1 id="h1"></h1>
+      <a class="hint" href="#work" data-i="hint"></a>
+    </section>
+
+    <!-- PROYECTOS: trabajos hechos en clase / en equipo -->
+    <section class="section" id="work">
+      <div class="sec-head"><h2 data-i="sec_projects"></h2><span data-i="sec_projects_sub"></span></div>
+      <div class="bento-wrap"><div class="bento" id="projects"><!-- mosaico generado por js/ui.js --></div></div>
+    </section>
+
+    <!-- EXPERIENCIA: prácticas profesionales -->
+    <section class="section" id="experience">
+      <div class="sec-head"><h2 data-i="sec_exp"></h2><span data-i="sec_exp_sub"></span></div>
+      <div id="experiences"><!-- filas generadas por js/ui.js --></div>
+    </section>
+
+    <!-- PERFIL -->
+    <section class="section" id="profile">
+      <div class="sec-head"><h2 data-i="sec_profile"></h2><span data-i="location"></span></div>
+      <div class="profile">
+        <div class="photo"><img src="assets/images/julia.jpg" alt="Júlia Fuertes"></div>
+        <div>
+          <p class="lead" data-i="lead"></p>
+          <dl class="facts">
+            <div><dt data-i="edu_label"></dt><dd data-i="edu"></dd></div>
+            <div><dt data-i="skills_label"></dt><dd>
+              <ul class="tags">
+                <li>Figma</li><li>Prototyping</li><li>UX research</li><li>Usability testing</li><li>Design systems</li>
+                <li>HTML / CSS / JavaScript</li><li>Bootstrap</li><li>Tailwind</li><li>Unity</li>
+              </ul></dd></div>
+          </dl>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section class="section cta" id="contact">
+      <div class="label" data-i="c_label"></div>
+      <h2 data-i="c_h"></h2>
+      <a class="mail" href="mailto:juliafc2006@gmail.com">juliafc2006@gmail.com</a>
+      <button class="copy" id="copy" data-i="copy"></button>
+      <div class="socials">
+        <a href="https://www.linkedin.com/in/j%C3%BAlia-fuertes/" target="_blank" rel="noopener">LinkedIn ↗</a>
+        <a href="https://github.com/JuliaFuertes" target="_blank" rel="noopener">GitHub ↗</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap"><span>© 2026 Júlia Fuertes</span><span data-i="location"></span></div>
+  </footer>
+
+  <!-- Ventana de detalle (la rellena js/dialog.js) -->
+  <dialog id="dlg" aria-labelledby="d-title">
+    <div class="d-top" id="d-top">
+      <button class="x" id="close">✕</button>
+      <img class="d-mark" id="d-mark" alt="" hidden>
+      <div class="label" id="d-kicker"></div>
+      <h2 id="d-title"></h2>
+      <p id="d-sum"></p>
+      <div class="d-meta" id="d-meta"></div>
+    </div>
+    <div class="d-body">
+      <div class="label" data-i="context"></div>
+      <div id="d-txt"></div>
+      <div class="d-stats" id="d-stats"></div>
+      <div class="d-steps" id="d-steps"></div>
+      <div class="d-media" id="d-media"></div>
+      <div class="d-links" id="d-links"></div>
+    </div>
+  </dialog>
+
+  <!-- Scripts (el orden importa: datos → idioma → módulos → arranque) -->
+  <script src="js/translations.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/projects.js"></script>
+  <script src="js/i18n.js"></script>
+  <script src="js/flower-data.js"></script>
+  <script src="js/flower.js"></script>
+  <script src="js/ui.js"></script>
+  <script src="js/dialog.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
