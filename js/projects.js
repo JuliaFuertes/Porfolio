@@ -69,7 +69,7 @@ App.PROJECTS = [
       { cols: 1, imgs: ["assets/images/alula/journey.jpg"] },
       { cols: 1, imgs: ["assets/images/alula/flowcharts.jpg"], max: 820 },
       { cols: 2, imgs: ["assets/images/alula/wf-create.jpg", "assets/images/alula/wf-home.jpg"] },
-      { cols: 1, imgs: ["assets/images/alula/mood-1.jpg", "assets/images/alula/mood-2.jpg"], max: 794 },
+      { cols: 1, imgs: ["assets/images/alula/mood-1.jpg", "assets/images/alula/mood-2.jpg", "assets/images/alula/mood-3.jpg"], max: 1100 },
       { cols: 1, imgs: ["assets/images/alula/home.jpg"] },
       { cols: 1, imgs: ["assets/images/alula/create-empty.jpg", "assets/images/alula/create-full.jpg"] },
       { cols: 1, imgs: ["assets/images/alula/workload.jpg"] },

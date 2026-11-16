@@ -257,14 +257,19 @@ App.TEXT = {
         ],
         "caps": [
           [
-            "Moodboard: colour, typography and grid",
-            "Moodboard: color, tipografia i graella",
-            "Moodboard: color, tipografía y cuadrícula"
+            "Moodboard: colour, typography, spacing and grid",
+            "Moodboard: color, tipografia, espaiats i graella",
+            "Moodboard: color, tipografía, espaciados y cuadrícula"
           ],
           [
-            "Moodboard: components, icons and logo",
-            "Moodboard: components, icones i logo",
-            "Moodboard: componentes, iconos y logo"
+            "Moodboard: buttons and components",
+            "Moodboard: botons i components",
+            "Moodboard: botones y componentes"
+          ],
+          [
+            "Moodboard: iconography, logo and references",
+            "Moodboard: iconografia, logo i referències",
+            "Moodboard: iconografía, logo y referencias"
           ]
         ]
       },
