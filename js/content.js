@@ -59,6 +59,320 @@ App.TEXT = {
         caps: [["System prompt that defines the assistant’s role", "Prompt del sistema que defineix el rol de l’assistent", "Prompt del sistema que define el rol del asistente"]] }
     ]
   },
+  alula: {
+    "sub": [
+      "Project management tool · UX / Product design",
+      "Eina de gestió de projectes · UX / Product design",
+      "Herramienta de gestión de proyectos · UX / Product design"
+    ],
+    "sum": [
+      "A project management tool for engineering managers, designed so a routine update takes seconds and blockers and overload surface on their own, with nobody chasing the team for status.",
+      "Una eina de gestió de projectes per a managers d’enginyeria, pensada perquè una actualització rutinària trigui segons i els bloquejos i la sobrecàrrega surtin a la llum sols, sense anar al darrere de l’equip per saber l’estat.",
+      "Una herramienta de gestión de proyectos para managers de ingeniería, pensada para que una actualización rutinaria lleve segundos y los bloqueos y la sobrecarga salgan a la luz solos, sin ir detrás del equipo para saber el estado."
+    ],
+    "role": [
+      "UX / Product designer",
+      "UX / Product designer",
+      "UX / Product designer"
+    ],
+    "scope": [
+      "Research, flows, UI and functional prototype",
+      "Recerca, fluxos, UI i prototip funcional",
+      "Investigación, flujos, UI y prototipo funcional"
+    ],
+    "body": [
+      "An individual <strong>UX / product design</strong> case study that goes from research to a functional prototype. The target user is David, an <strong>engineering manager</strong> who spends the day asking people for status instead of leading. Alula focuses on three tasks: <strong>creating a project</strong> with just a name, <strong>updating a task</strong> by dragging a card, and <strong>seeing the team’s workload</strong> at a glance. Below you can follow the process step by step, from the benchmark and the persona to flows, wireflows, visual identity and the final screens, and watch the functional prototype at the end.",
+      "Un cas d’estudi individual d’<strong>UX / disseny de producte</strong> que va de la recerca a un prototip funcional. L’usuari és en David, un <strong>engineering manager</strong> que passa el dia demanant l’estat a la gent en lloc de liderar. Alula se centra en tres tasques: <strong>crear un projecte</strong> només amb un nom, <strong>actualitzar una tasca</strong> arrossegant una targeta i <strong>veure la càrrega de l’equip</strong> d’un cop d’ull. A sota pots seguir el procés pas a pas, del benchmark i la persona als fluxos, els wireflows, la identitat visual i les pantalles finals, i veure el prototip funcional al final.",
+      "Un caso de estudio individual de <strong>UX / diseño de producto</strong> que va de la investigación a un prototipo funcional. El usuario es David, un <strong>engineering manager</strong> que pasa el día pidiendo el estado a la gente en lugar de liderar. Alula se centra en tres tareas: <strong>crear un proyecto</strong> solo con un nombre, <strong>actualizar una tarea</strong> arrastrando una tarjeta y <strong>ver la carga del equipo</strong> de un vistazo. Más abajo puedes seguir el proceso paso a paso, desde el benchmark y la persona hasta los flujos, los wireflows, la identidad visual y las pantallas finales, y ver el prototipo funcional al final."
+    ],
+    "process": [
+      "Design process",
+      "Procés de disseny",
+      "Proceso de diseño"
+    ],
+    "stats": [
+      [
+        "3",
+        [
+          "tools benchmarked: Linear, Monday.com and Jira",
+          "eines analitzades: Linear, Monday.com i Jira",
+          "herramientas analizadas: Linear, Monday.com y Jira"
+        ]
+      ],
+      [
+        "6 → 1",
+        [
+          "from a six-field form to a name and a row of chips",
+          "d’un formulari de sis camps a un nom i una fila de chips",
+          "de un formulario de seis campos a un nombre y una fila de chips"
+        ]
+      ],
+      [
+        "3",
+        [
+          "core flows: create a project, update a task, view workload",
+          "fluxos principals: crear un projecte, actualitzar una tasca, veure la càrrega",
+          "flujos principales: crear un proyecto, actualizar una tarea, ver la carga"
+        ]
+      ],
+      [
+        "4 px",
+        [
+          "base grid, 12 columns and 32 px minimum touch targets",
+          "graella base, 12 columnes i àrees tàctils mínimes de 32 px",
+          "cuadrícula base, 12 columnas y áreas táctiles mínimas de 32 px"
+        ]
+      ]
+    ],
+    "steps": [
+      {
+        "tag": "01",
+        "title": [
+          "The problem",
+          "El problema",
+          "El problema"
+        ],
+        "text": [
+          "Project managers and team leads are overwhelmed by fragmented tools, and the cost lands on their time: they spend the day asking people for status instead of leading. It affects managers who run technical teams, especially as companies scale and work becomes hybrid. Getting a real-time picture of progress means chasing teammates for manual updates, and when updating a task is slow or confusing the team stops doing it, so project data goes stale and blockers are found late. The opportunity: a tool where a routine update takes seconds and blockers and overload surface on their own.",
+          "Els project managers i els team leads van desbordats d’eines fragmentades, i el cost recau en el seu temps: passen el dia demanant l’estat a la gent en lloc de liderar. Afecta els managers que dirigeixen equips tècnics, sobretot a mesura que les empreses creixen i el treball es torna híbrid. Tenir una imatge en temps real del progrés vol dir anar al darrere dels companys perquè facin actualitzacions manuals, i quan actualitzar una tasca és lent o confús l’equip deixa de fer-ho: les dades del projecte queden obsoletes i els bloquejos es descobreixen tard. L’oportunitat: una eina on una actualització rutinària triga segons i els bloquejos i la sobrecàrrega surten a la llum sols.",
+          "Los project managers y los team leads están desbordados por herramientas fragmentadas, y el coste recae en su tiempo: pasan el día pidiendo el estado a la gente en lugar de liderar. Afecta a los managers que dirigen equipos técnicos, sobre todo a medida que las empresas crecen y el trabajo se vuelve híbrido. Tener una imagen en tiempo real del progreso significa ir detrás de los compañeros para que hagan actualizaciones manuales, y cuando actualizar una tarea es lento o confuso el equipo deja de hacerlo: los datos del proyecto se quedan obsoletos y los bloqueos se descubren tarde. La oportunidad: una herramienta donde una actualización rutinaria lleve segundos y los bloqueos y la sobrecarga salgan a la luz solos."
+        ]
+      },
+      {
+        "tag": "02",
+        "title": [
+          "Competitive benchmark",
+          "Benchmark competitiu",
+          "Benchmark competitivo"
+        ],
+        "text": [
+          "I compared Linear, Monday.com and Jira. Linear is fast and clean, but relies heavily on hidden shortcuts and menus, which makes it hard for beginners to learn. Monday.com is visual and accessible out of the box, with strong colour coding, but its vibrant layout causes cognitive overload and clutter on dense boards. Jira delivers great tracking and reporting depth, but suffers from low initial intuitiveness, complex navigation and a visually heavy layout.",
+          "Vaig comparar Linear, Monday.com i Jira. Linear és ràpid i net, però depèn molt de dreceres i menús amagats, cosa que en dificulta l’aprenentatge al principi. Monday.com és visual i accessible de sèrie, amb una bona codificació per colors, però el seu disseny vibrant provoca sobrecàrrega cognitiva i soroll visual en taulers densos. Jira ofereix gran profunditat de seguiment i informes, però té poca intuïció inicial, una navegació complexa i un disseny visualment pesat.",
+          "Comparé Linear, Monday.com y Jira. Linear es rápido y limpio, pero depende mucho de atajos y menús ocultos, lo que dificulta aprenderlo al principio. Monday.com es visual y accesible de serie, con una buena codificación por colores, pero su diseño vibrante provoca sobrecarga cognitiva y ruido visual en tableros densos. Jira ofrece gran profundidad de seguimiento e informes, pero tiene poca intuitividad inicial, una navegación compleja y un diseño visualmente pesado."
+        ],
+        "caps": [
+          [
+            "Linear vs. Monday.com vs. Jira",
+            "Linear vs. Monday.com vs. Jira",
+            "Linear vs. Monday.com vs. Jira"
+          ]
+        ]
+      },
+      {
+        "tag": "03",
+        "title": [
+          "User persona",
+          "Persona d’usuari",
+          "Persona de usuario"
+        ],
+        "text": [
+          "David Miller, 45, is an engineering manager who runs large technical teams. His core struggle: he can’t get a real-time snapshot of progress without chasing people for manual status updates. He needs instant visibility into team allocation and workflow velocity so he can unblock projects, and a tool with a low learning curve so his team updates tasks consistently, without administrative friction.",
+          "En David Miller, de 45 anys, és un engineering manager que dirigeix grans equips tècnics. El seu problema principal: no pot tenir una imatge en temps real del progrés sense anar al darrere de la gent per obtenir actualitzacions manuals. Necessita visibilitat immediata de l’assignació de l’equip i del ritme de treball per desbloquejar projectes, i una eina amb una corba d’aprenentatge baixa perquè el seu equip actualitzi les tasques amb constància, sense fricció administrativa.",
+          "David Miller, de 45 años, es un engineering manager que dirige grandes equipos técnicos. Su problema principal: no puede tener una imagen en tiempo real del progreso sin ir detrás de la gente para obtener actualizaciones manuales. Necesita visibilidad inmediata de la asignación del equipo y del ritmo de trabajo para desbloquear proyectos, y una herramienta con una curva de aprendizaje baja para que su equipo actualice las tareas con constancia, sin fricción administrativa."
+        ],
+        "caps": [
+          [
+            "User persona: David Miller",
+            "Persona d’usuari: David Miller",
+            "Persona de usuario: David Miller"
+          ]
+        ]
+      },
+      {
+        "tag": "04",
+        "title": [
+          "Customer journey",
+          "Customer journey",
+          "Customer journey"
+        ],
+        "text": [
+          "The journey maps David’s experience with a new tool, phase by phase. It drops to Very Negative in Phase 4 (trial and setup): an overwhelming initial configuration and hidden UI controls, as in Jira and Linear, alienate managers who are trying to set up modern workflows. It peaks at Very Positive in Phases 6–7, once David gets real-time visibility through clean, high-density dashboards that remove the need for manual status updates and micromanagement.",
+          "El journey recull l’experiència d’en David amb una eina nova, fase a fase. Cau a Molt negativa a la fase 4 (prova i configuració): una configuració inicial aclaparadora i uns controls amagats a la interfície, com a Jira i Linear, allunyen els managers que intenten muntar fluxos de treball moderns. Arriba al màxim, Molt positiva, a les fases 6–7, quan en David obté visibilitat en temps real amb panells nets i d’alta densitat que eliminen la necessitat d’actualitzacions manuals i de micromanagement.",
+          "El journey recoge la experiencia de David con una herramienta nueva, fase a fase. Cae a Muy negativa en la fase 4 (prueba y configuración): una configuración inicial abrumadora y unos controles ocultos en la interfaz, como en Jira y Linear, alejan a los managers que intentan montar flujos de trabajo modernos. Llega al máximo, Muy positiva, en las fases 6–7, cuando David obtiene visibilidad en tiempo real con paneles limpios y de alta densidad que eliminan la necesidad de actualizaciones manuales y de micromanagement."
+        ],
+        "caps": [
+          [
+            "Customer journey map",
+            "Mapa del customer journey",
+            "Mapa del customer journey"
+          ]
+        ]
+      },
+      {
+        "tag": "05",
+        "title": [
+          "Flows and priorities",
+          "Fluxos i prioritats",
+          "Flujos y prioridades"
+        ],
+        "text": [
+          "Three flows cover the core tasks: Create project, Update tasks and View workload. Each decision gate answers something from the research. “Use a template?” and the inline validation loops target the setup drop-off. “Quick change?” keeps a routine update to a couple of seconds, and “Status blocked?” sends blockers to the manager automatically, so he doesn’t have to ask. “Anyone over 100%?” is where David gets the visibility he asked for, and the interface adapts to the user’s role so contributors see a simpler view. I chose features with one rule: each had to solve a problem from the research and be part of my flows. The order was: updating a task fast (drag a card, or type and press Enter), workload and blocked tasks, a short Create project, and a suggested rebalance. Comments, notifications and advanced reports stayed out: they add information to the screens, and David wants less.",
+          "Tres fluxos cobreixen les tasques principals: Crear projecte, Actualitzar tasques i Veure la càrrega de treball. Cada punt de decisió respon a alguna cosa de la recerca. «Fer servir una plantilla?» i els bucles de validació en línia ataquen l’abandonament en la configuració. «Canvi ràpid?» manté una actualització rutinària en un parell de segons, i «Estat bloquejat?» envia els bloquejos al manager automàticament perquè no hagi de preguntar. «Algú per sobre del 100%?» és on en David obté la visibilitat que demanava, i la interfície s’adapta al rol de l’usuari perquè els col·laboradors vegin una vista més simple. Vaig triar les funcions amb una sola regla: cadascuna havia de resoldre un problema de la recerca i formar part dels meus fluxos. L’ordre va ser: actualitzar una tasca ràpidament (arrossegar una targeta, o escriure i prémer Enter), càrrega de treball i tasques bloquejades, un Crear projecte curt i una proposta de rebalanceig. Els comentaris, les notificacions i els informes avançats es van quedar fora: afegeixen informació a les pantalles, i en David en vol menys.",
+          "Tres flujos cubren las tareas principales: Crear proyecto, Actualizar tareas y Ver la carga de trabajo. Cada punto de decisión responde a algo de la investigación. «¿Usar una plantilla?» y los bucles de validación en línea atacan el abandono en la configuración. «¿Cambio rápido?» mantiene una actualización rutinaria en un par de segundos, y «¿Estado bloqueado?» envía los bloqueos al manager automáticamente, para que no tenga que preguntar. «¿Alguien por encima del 100%?» es donde David obtiene la visibilidad que pedía, y la interfaz se adapta al rol del usuario para que los colaboradores vean una vista más simple. Elegí las funciones con una sola regla: cada una tenía que resolver un problema de la investigación y formar parte de mis flujos. El orden fue: actualizar una tarea rápido (arrastrar una tarjeta, o escribir y pulsar Enter), carga de trabajo y tareas bloqueadas, un Crear proyecto corto y una propuesta de rebalanceo. Los comentarios, las notificaciones y los informes avanzados se quedaron fuera: añaden información a las pantallas, y David quiere menos."
+        ],
+        "caps": [
+          [
+            "Create project, update tasks and view workload flows",
+            "Fluxos de crear projecte, actualitzar tasques i veure la càrrega",
+            "Flujos de crear proyecto, actualizar tareas y ver la carga"
+          ]
+        ]
+      },
+      {
+        "tag": "06",
+        "title": [
+          "From sketch to wireflows",
+          "Dels esbossos als wireflows",
+          "De los bocetos a los wireflows"
+        ],
+        "text": [
+          "The clearest change is in Create project. My first sketch was a standard modal with six stacked fields: name, description, project lead, priority, date and initial status. It was easy to understand, but long, and every field looked equally important even though only the name is required. In the second version it became one open page: the name is a large title, the other properties are a single row of chips (status, priority, lead, members, dates, labels), and milestones and team invites sit lower, folded away. A smaller change happened on Home. The first sketch showed three lists side by side (to do, in process and done) plus the KPI; the second added a people panel, so David sees who is blocked and who is overloaded before reading any task.",
+          "El canvi més clar és a Crear projecte. El meu primer esbós era un modal estàndard amb sis camps apilats: nom, descripció, responsable del projecte, prioritat, data i estat inicial. Era fàcil d’entendre, però llarg, i tots els camps semblaven igual d’importants tot i que només el nom és obligatori. A la segona versió es va convertir en una pàgina oberta: el nom és un títol gran, la resta de propietats són una sola fila de chips (estat, prioritat, responsable, membres, dates, etiquetes), i les fites i les invitacions a l’equip queden més avall, plegades. Un canvi més petit va ser a Inici. El primer esbós mostrava tres llistes una al costat de l’altra (per fer, en procés i fetes) a més del KPI; la segona va afegir un panell de persones, perquè en David vegi qui està bloquejat i qui està sobrecarregat abans de llegir cap tasca.",
+          "El cambio más claro está en Crear proyecto. Mi primer boceto era un modal estándar con seis campos apilados: nombre, descripción, responsable del proyecto, prioridad, fecha y estado inicial. Era fácil de entender, pero largo, y todos los campos parecían igual de importantes aunque solo el nombre es obligatorio. En la segunda versión pasó a ser una página abierta: el nombre es un título grande, el resto de propiedades son una sola fila de chips (estado, prioridad, responsable, miembros, fechas, etiquetas), y los hitos y las invitaciones al equipo quedan más abajo, plegados. Un cambio más pequeño fue en Inicio. El primer boceto mostraba tres listas una junto a otra (por hacer, en proceso y hechas) además del KPI; la segunda añadió un panel de personas, para que David vea quién está bloqueado y quién sobrecargado antes de leer ninguna tarea."
+        ],
+        "caps": [
+          [
+            "Create project: first sketch (top) and second version (bottom)",
+            "Crear projecte: primer esbós (a dalt) i segona versió (a baix)",
+            "Crear proyecto: primer boceto (arriba) y segunda versión (abajo)"
+          ],
+          [
+            "Home: first sketch (top) and second version (bottom)",
+            "Inici: primer esbós (a dalt) i segona versió (a baix)",
+            "Inicio: primer boceto (arriba) y segunda versión (abajo)"
+          ]
+        ]
+      },
+      {
+        "tag": "07",
+        "title": [
+          "Identity: why “Alula”",
+          "Identitat: per què «Alula»",
+          "Identidad: por qué «Alula»"
+        ],
+        "text": [
+          "The alula is a tiny group of feathers on the leading edge of a bird’s wing: small, but it helps the bird keep control. A project has the same moment at the start, where teams lose momentum because nobody is sure who is doing what, what is blocked or whether anyone has updated their task. The name also carries the idea of despegar, taking off, and the logo is drawn as a wing. The benchmark showed what the category looks like (dense, dark or colourful, and full of options), so a moodboard decided what Alula should feel like: one blue as the only brand colour, with red, yellow and green kept for status; generous white space and a clear type hierarchy; one set of simple line icons; and folds that show detail only when it is needed. Every screen sits on a 4 px base grid and a 12-column layout (80 px columns, 16 px gutters), and spacing, sizes and corner radii (8, 12 and 16 px) are multiples of 4. Every interactive element has a minimum target of 32 × 32 px (40 and 48 px for the main buttons), and text never goes below 12 px.",
+          "L’alula és un petit grup de plomes a la vora d’atac de l’ala d’un ocell: és petita, però ajuda l’ocell a mantenir el control. Un projecte té el mateix moment al principi, quan els equips perden impuls perquè ningú està segur de qui fa què, què està bloquejat o si algú ha actualitzat la seva tasca. El nom també porta la idea de «despegar», enlairar-se, i el logo està dibuixat com una ala. El benchmark va mostrar com és la categoria (densa, fosca o colorista, i plena d’opcions), així que un moodboard va decidir com havia de sentir-se Alula: un sol blau com a únic color de marca, amb vermell, groc i verd reservats per a l’estat; molt espai en blanc i una jerarquia tipogràfica clara; un sol conjunt d’icones de línia senzilles; i plecs que mostren el detall només quan cal. Totes les pantalles es recolzen en una graella base de 4 px i un disseny de 12 columnes (columnes de 80 px, canals de 16 px), i els espaiats, mides i radis (8, 12 i 16 px) són múltiples de 4. Cada element interactiu té una àrea mínima de 32 × 32 px (40 i 48 px per als botons principals), i el text mai baixa de 12 px.",
+          "La álula es un pequeño grupo de plumas en el borde de ataque del ala de un ave: es diminuta, pero ayuda al ave a mantener el control. Un proyecto vive el mismo momento al empezar, cuando los equipos pierden impulso porque nadie tiene claro quién hace qué, qué está bloqueado o si alguien ha actualizado su tarea. El nombre también lleva la idea de despegar, y el logo está dibujado como un ala. El benchmark mostró cómo es la categoría (densa, oscura o colorida, y llena de opciones), así que un moodboard decidió cómo debía sentirse Alula: un solo azul como único color de marca, con rojo, amarillo y verde reservados para el estado; mucho espacio en blanco y una jerarquía tipográfica clara; un solo conjunto de iconos de línea sencillos; y pliegues que muestran el detalle solo cuando hace falta. Todas las pantallas se apoyan en una cuadrícula base de 4 px y un diseño de 12 columnas (columnas de 80 px, medianiles de 16 px), y los espaciados, tamaños y radios (8, 12 y 16 px) son múltiplos de 4. Cada elemento interactivo tiene un área mínima de 32 × 32 px (40 y 48 px para los botones principales), y el texto nunca baja de 12 px."
+        ],
+        "caps": [
+          [
+            "Moodboard: colour, typography and grid",
+            "Moodboard: color, tipografia i graella",
+            "Moodboard: color, tipografía y cuadrícula"
+          ],
+          [
+            "Moodboard: components, icons and logo",
+            "Moodboard: components, icones i logo",
+            "Moodboard: componentes, iconos y logo"
+          ]
+        ]
+      },
+      {
+        "tag": "08",
+        "title": [
+          "Home",
+          "Inici",
+          "Inicio"
+        ],
+        "text": [
+          "Home gives the status before David opens anything. Three numbers (active projects, tasks due this week, team capacity) sit at the top. His own tasks show status and due date on one row, and the blocked one stands out in red. Team workload bars carry a colour and a number, so the over-limit person (118%) is visible at a glance. A people panel shows each person’s task count and how many are blocked, and projects show one progress bar and one percentage, with the team as avatars. There is a single primary action, one blue button; colour everywhere else is reserved for status.",
+          "Inici dona l’estat abans que en David obri res. A dalt hi ha tres números (projectes actius, tasques que venen aquesta setmana, capacitat de l’equip). Les seves tasques mostren l’estat i la data en una sola fila, i la bloquejada destaca en vermell. Les barres de càrrega de l’equip porten color i número, de manera que la persona per sobre del límit (118%) es veu d’un cop d’ull. Un panell de persones mostra el nombre de tasques de cadascú i quantes estan bloquejades, i els projectes mostren una barra de progrés i un percentatge, amb l’equip com a avatars. Hi ha una única acció principal, un botó blau; el color a la resta de la pàgina es reserva per a l’estat.",
+          "Inicio da el estado antes de que David abra nada. Arriba hay tres números (proyectos activos, tareas que vencen esta semana, capacidad del equipo). Sus tareas muestran el estado y la fecha en una sola fila, y la bloqueada destaca en rojo. Las barras de carga del equipo llevan color y número, de modo que la persona por encima del límite (118%) se ve de un vistazo. Un panel de personas muestra el número de tareas de cada una y cuántas están bloqueadas, y los proyectos muestran una barra de progreso y un porcentaje, con el equipo como avatares. Hay una única acción principal, un botón azul; el color en el resto de la página se reserva para el estado."
+        ],
+        "caps": [
+          [
+            "Home dashboard",
+            "Panell d’inici",
+            "Panel de inicio"
+          ]
+        ]
+      },
+      {
+        "tag": "09",
+        "title": [
+          "Create project",
+          "Crear un projecte",
+          "Crear un proyecto"
+        ],
+        "text": [
+          "All the properties sit in one row of chips (status, priority, lead, members, dates), not in nested settings. A template skips the blank page, and milestones and team invites stay folded so the form stays short; invites can wait until the project exists. The create button is disabled until the form is valid, which prevents empty projects without showing an error message. Once the form is filled in, validation is inline: the error sits next to the field, in red with an icon and a sentence. Milestones expand in place without leaving the modal, and the single blue button is the only obvious next step.",
+          "Totes les propietats són en una sola fila de chips (estat, prioritat, responsable, membres, dates), no en ajustos aniuats. Una plantilla evita la pàgina en blanc, i les fites i les invitacions a l’equip queden plegades perquè el formulari sigui curt; les invitacions poden esperar fins que el projecte existeixi. El botó de crear està desactivat fins que el formulari és vàlid, cosa que evita projectes buits sense mostrar cap missatge d’error. Un cop omplert, la validació és en línia: l’error és al costat del camp, en vermell amb una icona i una frase. Les fites es despleguen al mateix lloc sense sortir del modal, i l’únic botó blau és el següent pas evident.",
+          "Todas las propiedades están en una sola fila de chips (estado, prioridad, responsable, miembros, fechas), no en ajustes anidados. Una plantilla evita la página en blanco, y los hitos y las invitaciones al equipo quedan plegados para que el formulario sea corto; las invitaciones pueden esperar a que el proyecto exista. El botón de crear está desactivado hasta que el formulario es válido, lo que evita proyectos vacíos sin mostrar ningún mensaje de error. Una vez relleno, la validación es en línea: el error está junto al campo, en rojo con un icono y una frase. Los hitos se despliegan en el mismo sitio sin salir del modal, y el único botón azul es el siguiente paso evidente."
+        ],
+        "caps": [
+          [
+            "Empty form",
+            "Formulari buit",
+            "Formulario vacío"
+          ],
+          [
+            "Filled in, with inline validation",
+            "Omplert, amb validació en línia",
+            "Rellenado, con validación en línea"
+          ]
+        ]
+      },
+      {
+        "tag": "10",
+        "title": [
+          "Workload",
+          "Càrrega de treball",
+          "Carga de trabajo"
+        ],
+        "text": [
+          "Capacity is a bar and a number: green up to 90%, yellow up to 100% and red above. Expanding a person shows the tasks behind the load in place, without hiding information behind complex menus. Overload is flagged more than once (red bar, warning icon and the words “Over limit”), so colour is never the only signal. Team and date filters and a Share button support leadership asking for transparent metrics. A suggested rebalance turns the numbers into an action: move two tasks from the over-limit person to someone with capacity, with the effect shown before confirming. A strip with the key numbers (capacity, hours planned and blocked tasks) summarises the page.",
+          "La capacitat és una barra i un número: verd fins al 90%, groc fins al 100% i vermell per sobre. Desplegar una persona mostra al mateix lloc les tasques que hi ha darrere de la càrrega, sense amagar informació darrere de menús complexos. La sobrecàrrega s’assenyala més d’una vegada (barra vermella, icona d’avís i les paraules «Over limit»), de manera que el color mai és l’únic senyal. Els filtres d’equip i de dates i un botó Compartir donen suport a la direcció, que demana mètriques transparents. Una proposta de rebalanceig converteix els números en una acció: moure dues tasques de la persona per sobre del límit a algú amb capacitat, amb l’efecte visible abans de confirmar. Una franja amb els números clau (capacitat, hores planificades i tasques bloquejades) resumeix la pàgina.",
+          "La capacidad es una barra y un número: verde hasta el 90%, amarillo hasta el 100% y rojo por encima. Desplegar a una persona muestra en el mismo sitio las tareas que hay detrás de la carga, sin esconder información tras menús complejos. La sobrecarga se señala más de una vez (barra roja, icono de aviso y las palabras «Over limit»), de modo que el color nunca es la única señal. Los filtros de equipo y de fechas y un botón Compartir dan soporte a la dirección, que pide métricas transparentes. Una propuesta de rebalanceo convierte los números en una acción: mover dos tareas de la persona por encima del límite a alguien con capacidad, mostrando el efecto antes de confirmar. Una franja con los números clave (capacidad, horas planificadas y tareas bloqueadas) resume la página."
+        ],
+        "caps": [
+          [
+            "Team workload",
+            "Càrrega de l’equip",
+            "Carga del equipo"
+          ]
+        ]
+      },
+      {
+        "tag": "11",
+        "title": [
+          "Updating tasks",
+          "Actualitzar tasques",
+          "Actualizar tareas"
+        ],
+        "text": [
+          "Updating a status is one gesture: dragging a card to another column is the whole update, and dashed slots show origin and destination. A task is created without a form (type and press Enter), column totals give the snapshot before any card is read, and Board, List and Timeline show the same tasks one click apart. For detail, the panel opens with the current status, the last update and Mark done first, so the most common update takes one click. Every property (status, priority, assignee, date and estimate) is an editable chip, subtasks open with a chevron, and history stays folded as a single row to avoid Jira’s heavy layout. A “Saved” check removes the doubt about whether the update counted, which keeps the team updating consistently.",
+          "Actualitzar un estat és un sol gest: arrossegar una targeta a una altra columna és tota l’actualització, i els buits de línia discontínua mostren l’origen i la destinació. Una tasca es crea sense formulari (escriure i prémer Enter), els totals de cada columna donen la imatge general abans de llegir cap targeta, i Tauler, Llista i Cronologia mostren les mateixes tasques a un clic de distància. Per al detall, el panell s’obre amb l’estat actual, l’última actualització i Marcar com a fet al davant, de manera que l’actualització més habitual triga un clic. Cada propietat (estat, prioritat, responsable, data i estimació) és un chip editable, les subtasques s’obren amb una fletxa, i l’historial queda plegat en una sola fila per evitar el disseny pesat de Jira. Un «Saved» amb una marca elimina el dubte de si l’actualització ha comptat, i això manté l’equip actualitzant amb constància.",
+          "Actualizar un estado es un solo gesto: arrastrar una tarjeta a otra columna es toda la actualización, y los huecos de línea discontinua muestran el origen y el destino. Una tarea se crea sin formulario (escribir y pulsar Enter), los totales de cada columna dan la imagen general antes de leer ninguna tarjeta, y Tablero, Lista y Cronología muestran las mismas tareas a un clic de distancia. Para el detalle, el panel se abre con el estado actual, la última actualización y Marcar como hecho al principio, de modo que la actualización más habitual lleva un clic. Cada propiedad (estado, prioridad, responsable, fecha y estimación) es un chip editable, las subtareas se abren con una flecha, y el historial queda plegado en una sola fila para evitar el diseño pesado de Jira. Un «Saved» con una marca elimina la duda de si la actualización contó, y eso mantiene al equipo actualizando con constancia."
+        ],
+        "caps": [
+          [
+            "Board: update a task by dragging",
+            "Tauler: actualitza una tasca arrossegant",
+            "Tablero: actualiza una tarea arrastrando"
+          ],
+          [
+            "Task panel: detailed update",
+            "Panell de tasca: actualització detallada",
+            "Panel de tarea: actualización detallada"
+          ]
+        ]
+      },
+      {
+        "tag": "12",
+        "title": [
+          "What I learned",
+          "Què he après",
+          "Qué he aprendido"
+        ],
+        "text": [
+          "The problem I wanted to solve was simple: David, an engineering manager, spends too much time asking his team for updates. Alula tries to fix that in three places. To create a project he only needs a name. To update a task he drags a card on the board. And on Home and Workload he can already see who is blocked and who has too much work, so he doesn’t need to ask anyone. The biggest change was the Create project screen: my first idea was a form with six fields and in the end it was just a name and a row of chips. Each time I removed something that was not in my flows, the screen looked cleaner. At the end I also found small accessibility problems, like very small initials in the avatars and priority icons that looked like dots, and I changed them because they went against my own rules. If I continued, I would test it with real engineering managers and measure how long a first update takes.",
+          "El problema que volia resoldre era senzill: en David, un engineering manager, passa massa temps demanant actualitzacions al seu equip. Alula intenta arreglar-ho en tres llocs. Per crear un projecte només necessita un nom. Per actualitzar una tasca arrossega una targeta al tauler. I a Inici i a Càrrega de treball ja pot veure qui està bloquejat i qui té massa feina, de manera que no ha de preguntar a ningú. El canvi més gran va ser la pantalla de Crear projecte: la meva primera idea era un formulari de sis camps i al final només va quedar un nom i una fila de chips. Cada vegada que treia alguna cosa que no era als meus fluxos, la pantalla quedava més neta. Al final també vaig trobar petits problemes d’accessibilitat, com unes inicials molt petites als avatars i unes icones de prioritat que semblaven punts, i els vaig canviar perquè anaven contra les meves pròpies regles. Si continués, ho provaria amb engineering managers reals i mesuraria quant triga una primera actualització.",
+          "El problema que quería resolver era sencillo: David, un engineering manager, pasa demasiado tiempo pidiendo actualizaciones a su equipo. Alula intenta arreglarlo en tres sitios. Para crear un proyecto solo necesita un nombre. Para actualizar una tarea arrastra una tarjeta en el tablero. Y en Inicio y en Carga de trabajo ya puede ver quién está bloqueado y quién tiene demasiado trabajo, así que no necesita preguntar a nadie. El cambio más grande fue la pantalla de Crear proyecto: mi primera idea era un formulario de seis campos y al final solo quedó un nombre y una fila de chips. Cada vez que quitaba algo que no estaba en mis flujos, la pantalla quedaba más limpia. Al final también encontré pequeños problemas de accesibilidad, como unas iniciales muy pequeñas en los avatares y unos iconos de prioridad que parecían puntos, y los cambié porque iban en contra de mis propias reglas. Si continuara, lo probaría con engineering managers reales y mediría cuánto tarda una primera actualización."
+        ]
+      }
+    ]
+  },
   trip: {
     sub:   ["Website · Interactive Media Programming", "Web · Programació de Mitjans Interactius", "Web · Programación de Medios Interactivos"],
     sum:   ["Your travel companion: organize trips, check the weather and discover new experiences from one simple platform.",
@@ -72,20 +386,6 @@ App.TEXT = {
     process: ["Walkthrough", "Recorregut", "Recorrido"],
     stats: [["3", ["core features: trip management, live weather, suggestions", "funcions principals: gestió de viatges, temps en directe, suggeriments", "funciones principales: gestión de viajes, clima en directo, sugerencias"]], ["5", ["sections in the main navigation", "seccions a la navegació principal", "secciones en la navegación principal"]], ["1", ["responsive interface built with plain HTML, CSS and JavaScript", "interfície adaptable creada amb HTML, CSS i JavaScript", "interfaz adaptable creada con HTML, CSS y JavaScript"]]],
     steps: [{"tag": "01", "title": ["Home", "Inici", "Inicio"], "text": ["A landing page with a full-width hero image and a clear call to action, “Empezar aventura”, plus a menu to the five sections: Home, Trips, Weather, About and Suggestions.", "Una pàgina d’inici amb una imatge d’impacte a tota amplada i una crida a l’acció clara, «Empezar aventura», i un menú amb les cinc seccions: Inici, Viatges, Temps, Sobre nosaltres i Suggeriments.", "Una página de inicio con una imagen de impacto a todo el ancho y una llamada a la acción clara, «Empezar aventura», y un menú con las cinco secciones: Inicio, Viajes, Clima, Sobre nosotros y Sugerencias."], "caps": [["Home", "Inici", "Inicio"]]}, {"tag": "02", "title": ["Plan your trips", "Planifica els teus viatges", "Planifica tus viajes"], "text": ["Create a trip with a name, destination and dates, then add activities with a time and a short description. Trips can be edited or deleted, and the data persists so nothing is lost when you leave the page.", "Crea un viatge amb nom, destinació i dates i afegeix-hi activitats amb hora i una descripció breu. Els viatges es poden editar o eliminar, i les dades es mantenen perquè no es perdi res en sortir de la pàgina.", "Crea un viaje con nombre, destino y fechas y añade actividades con hora y una descripción breve. Los viajes se pueden editar o eliminar, y los datos persisten para que no se pierda nada al salir de la página."], "caps": [["Trips and activities", "Viatges i activitats", "Viajes y actividades"]]}, {"tag": "03", "title": ["Live weather", "Temps en directe", "Clima en directo"], "text": ["Search any city to see the current temperature and sky conditions, retrieved in real time through a weather API. Each searched city appears as a card, here Barcelona at 23°C and Tokyo at 20°C.", "Cerca qualsevol ciutat per veure’n la temperatura actual i l’estat del cel, obtinguts en temps real mitjançant una API del temps. Cada ciutat cercada apareix com una targeta, aquí Barcelona a 23 °C i Tòquio a 20 °C.", "Busca cualquier ciudad para ver su temperatura actual y el estado del cielo, obtenidos en tiempo real mediante una API del clima. Cada ciudad buscada aparece como una tarjeta, aquí Barcelona a 23 °C y Tokio a 20 °C."], "caps": [["Weather search", "Cerca del temps", "Búsqueda del clima"]]}, {"tag": "04", "title": ["About", "Sobre nosaltres", "Sobre nosotros"], "text": ["An About page that sets out the project’s values (simplicity, user experience, creativity, innovation and authenticity) as numbered cards.", "Una pàgina «Sobre nosaltres» que presenta els valors del projecte (simplicitat, experiència d’usuari, creativitat, innovació i autenticitat) en targetes numerades.", "Una página «Sobre nosotros» que presenta los valores del proyecto (simplicidad, experiencia de usuario, creatividad, innovación y autenticidad) en tarjetas numeradas."], "caps": [["About page", "Pàgina Sobre nosaltres", "Página Sobre nosotros"]]}, {"tag": "05", "title": ["Contact form", "Formulari de contacte", "Formulario de contacto"], "text": ["A contact form with required fields and validation: if anything is missing, an error message asks the user to complete all required fields before sending.", "Un formulari de contacte amb camps obligatoris i validació: si falta alguna cosa, un missatge d’error demana omplir tots els camps obligatoris abans d’enviar.", "Un formulario de contacto con campos obligatorios y validación: si falta algo, un mensaje de error pide completar todos los campos obligatorios antes de enviar."], "caps": [["Form validation", "Validació del formulari", "Validación del formulario"]]}]
-  },
-  kinetix: {
-    sub:   ["Wearable controller · Interactive Product", "Mando portàtil · Producte interactiu", "Mando portátil · Producto interactivo"],
-    sum:   ["A motion controller that turns arm gestures into game actions: a 3D-printed handheld with an ESP32 and a motion sensor, streaming over WiFi to a game built in Unity.",
-            "Un mando de moviment que converteix els gestos del braç en accions de joc: un dispositiu imprès en 3D amb ESP32 i sensor de moviment que transmet per WiFi a un joc creat amb Unity.",
-            "Un mando de movimiento que convierte los gestos del brazo en acciones de juego: un dispositivo impreso en 3D con ESP32 y sensor de movimiento que transmite por WiFi a un juego creado en Unity."],
-    role:  ["Interactive product design (team of 3)", "Disseny de producte interactiu (equip de 3)", "Diseño de producto interactivo (equipo de 3)"],
-    scope: ["Hardware, 3D-printed prototype & Unity game", "Hardware, prototip imprès en 3D i joc a Unity", "Hardware, prototipo impreso en 3D y juego en Unity"],
-    body:  ["A team project for the <strong>Intelligent Environments</strong> course, built with Irene Carretero and Arnau Valls. Most video games still rely on static, seated interaction, so we designed <strong>Kinetix</strong>: a handheld controller that makes body movement part of the game. An <strong>MPU-6050</strong> motion sensor and an <strong>ESP32</strong> detect left and right gestures, filter the noise with a circular buffer, and send the result in real time over <strong>WiFi using UDP</strong> to a cartoon game built from scratch in <strong>Unity</strong>. The idea started as a wristband and, after several 3D-printed prototypes, became a cylindrical controller.",
-            "Un projecte en equip de l’assignatura d’<strong>Entorns Intel·ligents</strong>, creat amb Irene Carretero i Arnau Valls. La majoria de videojocs encara es basen en una interacció estàtica i asseguda, així que vam dissenyar <strong>Kinetix</strong>: un mando que fa del moviment del cos una part del joc. Un sensor de moviment <strong>MPU-6050</strong> i una <strong>ESP32</strong> detecten els gestos cap a l’esquerra i la dreta, filtren el soroll amb un buffer circular i envien el resultat en temps real per <strong>WiFi amb UDP</strong> a un joc d’estil cartoon creat des de zero amb <strong>Unity</strong>. La idea va començar com una polsera i, després de diversos prototips impresos en 3D, es va convertir en un mando cilíndric.",
-            "Un proyecto en equipo de la asignatura de <strong>Entornos Inteligentes</strong>, creado con Irene Carretero y Arnau Valls. La mayoría de los videojuegos aún se basan en una interacción estática y sentada, así que diseñamos <strong>Kinetix</strong>: un mando que convierte el movimiento del cuerpo en parte del juego. Un sensor de movimiento <strong>MPU-6050</strong> y una <strong>ESP32</strong> detectan los gestos hacia la izquierda y la derecha, filtran el ruido con un buffer circular y envían el resultado en tiempo real por <strong>WiFi con UDP</strong> a un juego de estilo cartoon creado desde cero en <strong>Unity</strong>. La idea empezó como una pulsera y, tras varios prototipos impresos en 3D, se convirtió en un mando cilíndrico."],
-    process: ["Development process", "Procés de desenvolupament", "Proceso de desarrollo"],
-    stats: [["84%", ["of 9–17-year-olds in Spain spend 2+ hours a day on screens at weekends (ANIBES study)", "dels nens i adolescents de 9 a 17 anys a Espanya passen més de 2 hores al dia davant d’una pantalla el cap de setmana (estudi ANIBES)", "de los niños y adolescentes de 9 a 17 años en España pasan más de 2 horas al día frente a una pantalla el fin de semana (estudio ANIBES)"]], ["<50 ms", ["perceived latency under normal conditions", "latència percebuda en condicions normals", "latencia percibida en condiciones normales"]], ["3", ["prototype versions: wristband, box, cylinder", "versions del prototip: polsera, caixa, cilindre", "versiones del prototipo: pulsera, caja, cilindro"]], ["Ø46 mm", ["3D-printed cylindrical controller", "mando cilíndric imprès en 3D", "mando cilíndrico impreso en 3D"]]],
-    steps: [{"tag": "01", "title": ["The problem", "El problema", "El problema"], "text": ["Most video games still mean sitting still. A WHO-led study found that most adolescents worldwide are not active enough, and the ANIBES study reports that 84% of Spanish 9–17-year-olds spend more than two hours a day on screens at weekends. Kinetix starts there: what if the game itself got people moving?", "La majoria de videojocs encara signifiquen estar quiet. Un estudi dirigit per l’OMS indica que la majoria d’adolescents del món no fan prou activitat física, i l’estudi ANIBES recull que el 84% dels nens i adolescents espanyols de 9 a 17 anys passen més de dues hores al dia davant d’una pantalla el cap de setmana. Kinetix parteix d’aquí: i si el mateix joc fes moure la gent?", "La mayoría de los videojuegos aún significan estar quieto. Un estudio dirigido por la OMS indica que la mayoría de los adolescentes del mundo no realizan suficiente actividad física, y el estudio ANIBES recoge que el 84% de los niños y adolescentes españoles de 9 a 17 años pasa más de dos horas al día frente a una pantalla el fin de semana. Kinetix parte de ahí: ¿y si el propio juego hiciera moverse a la gente?"]}, {"tag": "02", "title": ["The concept", "El concepte", "El concepto"], "text": ["A handheld controller you move with your arm: gestures replace thumbs, with intuitive movements suited to all ages. Compared with the Wii Remote, Joy-Con and PS Move, it has the same accelerometer and gyroscope but works over WiFi/UDP, needs no external camera and costs much less, at the price of medium spatial precision.", "Un mando de mà que es mou amb el braç: els gestos substitueixen els polzes, amb moviments intuïtius aptes per a totes les edats. Comparat amb el Wii Remote, els Joy-Con i el PS Move, té el mateix acceleròmetre i giroscopi però funciona per WiFi/UDP, no necessita càmera externa i costa molt menys, a canvi d’una precisió espacial mitjana.", "Un mando de mano que se mueve con el brazo: los gestos sustituyen a los pulgares, con movimientos intuitivos aptos para todas las edades. Comparado con el Wii Remote, los Joy-Con y el PS Move, tiene el mismo acelerómetro y giroscopio pero funciona por WiFi/UDP, no necesita cámara externa y cuesta mucho menos, a cambio de una precisión espacial media."]}, {"tag": "03", "title": ["How it works", "Com funciona", "Cómo funciona"], "text": ["It detects, transmits and responds. An MPU-6050 sensor (accelerometer + gyroscope) captures the arm’s movement, an ESP32 filters it and sends it in real time over WiFi as UDP packets, and a Unity game moves the character. We chose UDP over Bluetooth LE for its low latency and easy integration in Unity.", "Detecta, transmet i respon. Un sensor MPU-6050 (acceleròmetre + giroscopi) capta el moviment del braç, una ESP32 el filtra i l’envia en temps real per WiFi en paquets UDP, i un joc d’Unity mou el personatge. Vam triar UDP en lloc de Bluetooth LE per la seva baixa latència i la fàcil integració a Unity.", "Detecta, transmite y responde. Un sensor MPU-6050 (acelerómetro + giroscopio) capta el movimiento del brazo, una ESP32 lo filtra y lo envía en tiempo real por WiFi en paquetes UDP, y un juego de Unity mueve al personaje. Elegimos UDP en lugar de Bluetooth LE por su baja latencia y su fácil integración en Unity."]}, {"tag": "04", "title": ["Phase 1 · Arduino", "Fase 1 · Arduino", "Fase 1 · Arduino"], "text": ["We first wired an Arduino Uno to the MPU-6050 to understand the sensor. Calibrating three axes at once was unstable, so we simplified to the Ay axis (below 5000 means right, above 50000 means left) and added a circular buffer that averages the variation to filter out noise.", "Primer vam connectar un Arduino Uno al MPU-6050 per entendre el sensor. Calibrar tres eixos alhora era inestable, així que vam simplificar a l’eix Ay (per sota de 5000 és dreta, per sobre de 50000 és esquerra) i vam afegir un buffer circular que fa la mitjana de la variació per filtrar el soroll.", "Primero conectamos un Arduino Uno al MPU-6050 para entender el sensor. Calibrar tres ejes a la vez era inestable, así que simplificamos al eje Ay (por debajo de 5000 es derecha, por encima de 50000 es izquierda) y añadimos un buffer circular que promedia la variación para filtrar el ruido."]}, {"tag": "05", "title": ["Phase 2 · ESP32 and WiFi", "Fase 2 · ESP32 i WiFi", "Fase 2 · ESP32 y WiFi"], "text": ["The Arduino Uno has no WiFi, so we migrated to the ESP32. It joins the local network and sends a “1” or a “2” over UDP every 100 ms, with perceived latency under 50 ms. Tuning the thresholds for rightward movement was still the open problem at this stage.", "L’Arduino Uno no té WiFi, així que vam migrar a l’ESP32. Es connecta a la xarxa local i envia un «1» o un «2» per UDP cada 100 ms, amb una latència percebuda inferior a 50 ms. Ajustar els llindars del moviment cap a la dreta encara era el problema obert en aquesta fase.", "El Arduino Uno no tiene WiFi, así que migramos a la ESP32. Se conecta a la red local y envía un «1» o un «2» por UDP cada 100 ms, con una latencia percibida inferior a 50 ms. Ajustar los umbrales del movimiento hacia la derecha seguía siendo el problema abierto en esta fase."]}, {"tag": "06", "title": ["Phase 3 · The game in Unity", "Fase 3 · El joc a Unity", "Fase 3 · El juego en Unity"], "text": ["Rather than hacking an existing game, we built our own from scratch in Unity: in a cartoon building, the character slides sideways to catch what falls from the top of the screen, with a live score. A C# script listens to the UDP port asynchronously (1 moves right, 2 moves left). We tried Blender first and switched to Unity for its easier UDP and C# integration.", "En lloc de piratejar un joc existent, en vam crear un de propi des de zero a Unity: en un edifici d’estil cartoon, el personatge es desplaça lateralment per recollir el que cau de la part superior de la pantalla, amb una puntuació en directe. Un script de C# escolta el port UDP de forma asíncrona (1 mou a la dreta, 2 a l’esquerra). Vam provar primer Blender i vam passar a Unity per la seva integració més fàcil amb UDP i C#.", "En lugar de hackear un juego existente, creamos uno propio desde cero en Unity: en un edificio de estilo cartoon, el personaje se desplaza lateralmente para recoger lo que cae de la parte superior de la pantalla, con una puntuación en directo. Un script de C# escucha el puerto UDP de forma asíncrona (1 mueve a la derecha, 2 a la izquierda). Probamos primero Blender y pasamos a Unity por su integración más fácil con UDP y C#."]}, {"tag": "07", "title": ["Prototype", "Prototip", "Prototipo"], "text": ["Three iterations of the casing: a wristband (dropped because of component size and ergonomics), a rectangular box modelled in Tinkercad (functional but uncomfortable, with thick walls) and a cylindrical, Wii-style shell of Ø46 mm with rails for the electronics and a power bank, 3D printed.", "Tres iteracions de la carcassa: una polsera (descartada per la mida dels components i l’ergonomia), una caixa rectangular modelada a Tinkercad (funcional però incòmoda, amb parets massa gruixudes) i una carcassa cilíndrica d’estil Wii de Ø46 mm amb carrils per a l’electrònica i una power bank, impresa en 3D.", "Tres iteraciones de la carcasa: una pulsera (descartada por el tamaño de los componentes y la ergonomía), una caja rectangular modelada en Tinkercad (funcional pero incómoda, con paredes demasiado gruesas) y una carcasa cilíndrica estilo Wii de Ø46 mm con raíles para la electrónica y una power bank, impresa en 3D."]}, {"tag": "08", "title": ["Demo", "Demo", "Demo"], "text": ["The controller working with the game on a laptop. To play: power the ESP32 with the power bank, connect controller and PC to the same WiFi network, launch the Unity game and move the controller left or right to move the character.", "El mando funcionant amb el joc en un portàtil. Per jugar: alimentar l’ESP32 amb la power bank, connectar mando i PC a la mateixa xarxa WiFi, obrir el joc d’Unity i moure el mando a l’esquerra o a la dreta per moure el personatge.", "El mando funcionando con el juego en un portátil. Para jugar: alimentar la ESP32 con la power bank, conectar mando y PC a la misma red WiFi, abrir el juego de Unity y mover el mando a izquierda o derecha para mover al personaje."]}]
   },
   dow: {
     title: ["Product design internship at Dow Jones", "Pràctiques de disseny de producte a Dow Jones", "Prácticas de diseño de producto en Dow Jones"],

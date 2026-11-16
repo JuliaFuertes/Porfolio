@@ -29,6 +29,7 @@ App.UI = {
     cap_wireframes: "Design system & wireframes", cap_video: "Video demo", cap_images: "Images",
     slide: "Slide", prev: "← Previous", next: "Next →",
     l_pdf: "Presentation (PDF)", l_gh: "GitHub repo", l_figma: "Figma", l_pdf_dj: "PDF", l_docx: "Word document", l_report: "Project report (PDF)",
+    cap_proto: "Functional prototype", l_case: "Case study (PDF)", l_board: "Research boards (Figma)", l_proto_fn: "Functional prototype",
     theme: "Toggle dark mode", close: "Close", lang: "Language"
   },
   ca: {
@@ -53,6 +54,7 @@ App.UI = {
     cap_wireframes: "Sistema de disseny i wireframes", cap_video: "Demo en vídeo", cap_images: "Imatges",
     slide: "Diapositiva", prev: "← Anterior", next: "Següent →",
     l_pdf: "Presentació (PDF)", l_gh: "Repositori de GitHub", l_figma: "Figma", l_pdf_dj: "PDF", l_docx: "Document Word", l_report: "Memòria del projecte (PDF)",
+    cap_proto: "Prototip funcional", l_case: "Cas pràctic (PDF)", l_board: "Panells de recerca (Figma)", l_proto_fn: "Prototip funcional",
     theme: "Canvia el mode fosc", close: "Tanca", lang: "Idioma"
   },
   es: {
@@ -77,6 +79,7 @@ App.UI = {
     cap_wireframes: "Sistema de diseño y wireframes", cap_video: "Demo en vídeo", cap_images: "Imágenes",
     slide: "Diapositiva", prev: "← Anterior", next: "Siguiente →",
     l_pdf: "Presentación (PDF)", l_gh: "Repositorio de GitHub", l_figma: "Figma", l_pdf_dj: "PDF", l_docx: "Documento Word", l_report: "Memoria del proyecto (PDF)",
+    cap_proto: "Prototipo funcional", l_case: "Caso de estudio (PDF)", l_board: "Paneles de investigación (Figma)", l_proto_fn: "Prototipo funcional",
     theme: "Cambiar modo oscuro", close: "Cerrar", lang: "Idioma"
   }
 };

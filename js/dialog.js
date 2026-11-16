@@ -41,7 +41,7 @@
       return `<section class="step">
         <div class="step-head"><span class="step-tag">${T.tag}</span><h3>${A.pick(T.title)}</h3></div>
         <p>${A.pick(T.text)}</p>
-        ${figs ? `<div class="step-imgs cols-${st.cols}">${figs}</div>` : ""}</section>`;
+        ${figs ? `<div class="step-imgs cols-${st.cols}"${st.max ? ` style="max-width:${st.max}px"` : ""}>${figs}</div>` : ""}</section>`;
     }).join("");
   }
 

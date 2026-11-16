@@ -57,26 +57,33 @@ App.PROJECTS = [
     ]
   },
   {
-    id: "kinetix", title: "Kinetix", cat: "code design", kind: "case", n: "03",
-    tags: ["Hardware", "Unity", "WiFi / UDP", "3D printing"],
-    color: "#5780c0",
-    cover: { img: "assets/marks/kinetix.svg", alt: "Kinetix logo", fit: "mark" },
-    mark: "assets/marks/kinetix.svg",
+    id: "alula", title: "Alula", cat: "design", kind: "case", n: "03",
+    tags: ["UX research", "Product design", "UI", "Prototyping"],
+    color: "#2056e7",
+    cover: { img: "assets/marks/alula.svg", alt: "Alula logo", fit: "mark" },
+    mark: "assets/marks/alula.svg",
     steps: [
-      { cols: 1, imgs: ["assets/images/kinetix/slide-03.jpg"] },
-      { cols: 1, imgs: ["assets/images/kinetix/slide-04.jpg", "assets/images/kinetix/slide-05.jpg"] },
-      { cols: 1, imgs: ["assets/images/kinetix/slide-06.jpg", "assets/images/kinetix/slide-08.jpg", "assets/images/kinetix/slide-09.jpg"] },
-      { cols: 1, imgs: ["assets/images/kinetix/slide-15.jpg"] },
-      { cols: 1, imgs: ["assets/images/kinetix/slide-16.jpg"] },
-      { cols: 1, imgs: ["assets/images/kinetix/slide-17.jpg", "assets/images/kinetix/slide-19.jpg", "assets/images/kinetix/slide-20.jpg"] },
-      { cols: 1, imgs: ["assets/images/kinetix/slide-21.jpg", "assets/images/kinetix/slide-22.jpg"] },
-      { cols: 1, imgs: ["assets/images/kinetix/slide-23.jpg"] }
+      { cols: 1, imgs: [] },
+      { cols: 1, imgs: ["assets/images/alula/benchmark.jpg"] },
+      { cols: 1, imgs: ["assets/images/alula/persona.jpg"], max: 720 },
+      { cols: 1, imgs: ["assets/images/alula/journey.jpg"] },
+      { cols: 1, imgs: ["assets/images/alula/flowcharts.jpg"], max: 820 },
+      { cols: 2, imgs: ["assets/images/alula/wf-create.jpg", "assets/images/alula/wf-home.jpg"] },
+      { cols: 1, imgs: ["assets/images/alula/mood-1.jpg", "assets/images/alula/mood-2.jpg"], max: 794 },
+      { cols: 1, imgs: ["assets/images/alula/home.jpg"] },
+      { cols: 1, imgs: ["assets/images/alula/create-empty.jpg", "assets/images/alula/create-full.jpg"] },
+      { cols: 1, imgs: ["assets/images/alula/workload.jpg"] },
+      { cols: 1, imgs: ["assets/images/alula/task-easy.jpg", "assets/images/alula/task-detail.jpg"] },
+      { cols: 1, imgs: [] }
     ],
     media: [
-      { type: "slides", cap: "cap_full", dir: "assets/images/kinetix/slide-", count: 23 }
+      { type: "video", cap: "cap_proto", src: "assets/videos/alula-prototype.mp4", poster: "assets/images/alula/prototype-poster.jpg" }
     ],
     links: [
-      { key: "l_report", url: "assets/docs/kinetix-report.pdf" }
+      { key: "l_figma",    url: "https://www.figma.com/design/ZNBPoNkmBEM8lpfKLLpBau/Alula?node-id=1075-7637&t=rsfUsdnmtCyGmVqt-1" },
+      { key: "l_board",    url: "https://www.figma.com/board/UlfR6mkqlOXhVODru30rBO/Benchmark?node-id=0-1&t=VsDomZWTNcjAeaLG-1" },
+      { key: "l_proto_fn", url: "https://drive.google.com/file/d/13DUghwaZhow2DNENP-oQpVJ8TPI1Vgj5/view?usp=sharing" },
+      { key: "l_case",     url: "assets/docs/alula-case-study.pdf" }
     ]
   },
   {
